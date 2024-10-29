@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DtoToSql.SqlServer.Filtering/1.0.0": {
+        "dependencies": {
+          "DtoToSql.Core": "1.0.0"
+        },
+        "runtime": {
+          "DtoToSql.SqlServer.Filtering.dll": {}
+        }
+      },
+      "DtoToSql.Core/1.0.0": {
+        "runtime": {
+          "DtoToSql.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DtoToSql.SqlServer.Filtering/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DtoToSql.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
