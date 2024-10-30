@@ -1,11 +1,11 @@
 namespace DtoToSql.Core.Filtering.Components;
 
-public record Select
+public record Column
 {
     public string ColumnName { get; set; }
     public string? Alias { get; set; }
 
-    public Select(string columnName, string? alias)
+    public Column(string columnName, string? alias)
     {
         ColumnName = columnName;
         Alias = alias;

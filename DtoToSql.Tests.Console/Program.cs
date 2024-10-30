@@ -16,7 +16,7 @@ foreach (var where in sqlQuery.WhereSet)
 Console.WriteLine();
 
 Console.WriteLine("Select clause");
-foreach (var select in sqlQuery.SelectList)
+foreach (var select in sqlQuery.ColumnList)
 {
     Console.WriteLine("ColumnName "+select.ColumnName);
     Console.WriteLine("Alias "+select.Alias);

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DtoToSql.SqlServer.Filtering")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ead5ff112d986f13608a8c86cbd599476623ddb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DtoToSql.SqlServer.Filtering")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DtoToSql.SqlServer.Filtering")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

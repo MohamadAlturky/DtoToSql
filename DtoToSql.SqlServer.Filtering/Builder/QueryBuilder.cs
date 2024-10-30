@@ -81,11 +81,11 @@ public static class QueryBuilder
 
         if (string.IsNullOrEmpty(columnAttr.Name))
         {
-            query.SelectList.Add(new Select(prop.Name, prop.Name));
+            query.ColumnList.Add(new Column(prop.Name, prop.Name));
         }
         else
         {
-            query.SelectList.Add(new Select(columnAttr.Name, prop.Name));
+            query.ColumnList.Add(new Column(columnAttr.Name, prop.Name));
         }
     }
     private static void _handleWhereAnnotations(PropertyInfo property, SqlQuery query)
